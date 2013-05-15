@@ -2,13 +2,20 @@ Form:
 The header - called a text... setting it is like this.Text = "*something*";
 Size = setting it requires the Size class under System.Drawing;
 
+/*
+Coding Practice: if you have many pictures/images to be added on your application, it's better to use an ImageList. But if you are using image list instead of image, you should use componentName.ImageIndex = *some int value which represents the index of the image on the image list.*
+*/
+
 Components on the form:
 
 When assigning the location of the components, use the class Point under System.Drawing;
 
-1. Button (Under System.Forms.Form.Button) - when you used the buttonName.Click, assign it to a function that it would be executing.
+1. Button (Under System.Forms.Form.Button) - when you used the buttonName.Click, assign it to a function that it would be executing. You can add an image to the button by using buttonName.image = *img class*;
 2. TextBox (Under System.Forms.Form.TextBox);
 3. MainMenu - it the the menu bar which is positioned on the top... below the header. It can contain MenuItems....
 To add a MenuItem... mainMenuName.Add(menuItemName);
 4. Menu Item - it is the values that you see on the main menu or on another main item. It can contain many sub menu items in it.
 To add a MenuItem object on another MenuItem object - menuItem1.MenuItem.add(menuItem2); and you can set its menuItemName.Click into a function.
+5. MenuStrip - something like a MainMenu object, but it's counterpart for the MenuItem is the ToolStripItem;
+6. Label (can contain either text or image.... if you want to see an image.... labelName.image = someImageObject)
+7. TextBox - can have a TextChange event handler.... which is somewhat a counterpart of a button's Click.
