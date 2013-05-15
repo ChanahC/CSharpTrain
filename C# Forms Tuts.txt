@@ -1,0 +1,14 @@
+Form:
+The header - called a text... setting it is like this.Text = "*something*";
+Size = setting it requires the Size class under System.Drawing;
+
+Components on the form:
+
+When assigning the location of the components, use the class Point under System.Drawing;
+
+1. Button (Under System.Forms.Form.Button) - when you used the buttonName.Click, assign it to a function that it would be executing.
+2. TextBox (Under System.Forms.Form.TextBox);
+3. MainMenu - it the the menu bar which is positioned on the top... below the header. It can contain MenuItems....
+To add a MenuItem... mainMenuName.Add(menuItemName);
+4. Menu Item - it is the values that you see on the main menu or on another main item. It can contain many sub menu items in it.
+To add a MenuItem object on another MenuItem object - menuItem1.MenuItem.add(menuItem2); and you can set its menuItemName.Click into a function.
