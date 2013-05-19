@@ -18,4 +18,8 @@ To add a MenuItem... mainMenuName.Add(menuItemName);
 To add a MenuItem object on another MenuItem object - menuItem1.MenuItem.add(menuItem2); and you can set its menuItemName.Click into a function.
 5. MenuStrip - something like a MainMenu object, but it's counterpart for the MenuItem is the ToolStripItem;
 6. Label (can contain either text or image.... if you want to see an image.... labelName.image = someImageObject)
-7. TextBox - can have a TextChange event handler.... which is somewhat a counterpart of a button's Click.
+7. TextBox - can have a TextChange event handler.... which is somewhat a counterpart of a button's Click. If you set textBoxName.Multiline = true, then the text box would allw the user to input multiline text.
+8. Panel - for grouping purpose
+9. Checkbox - to have the changes seen, use the function checkBoxName.CheckedChanged and set it to some functions;
+10. GroupBox
+11. TrackBar - .ValueChanged

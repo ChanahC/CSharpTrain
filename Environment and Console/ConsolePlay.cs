@@ -11,8 +11,8 @@ namespace QuickSharp
             Console.ForegroundColor = ConsoleColor.Blue; //Sets the Foreground color of the console to red
             Console.BackgroundColor = ConsoleColor.Black; //sets the background color of the console to black
             string str = Console.ReadLine();
-            Console.Clear(); //Clears the commandline from all the shits
-            Console.ResetColor();
+            //Console.Clear(); //Clears the commandline from all the shits
+            //Console.ResetColor();
             ConsoleKeyInfo x;
             Console.WriteLine("Just press the keys and press x if you want to stop");
             do{
