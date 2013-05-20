@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <!--What you see below is a sample of binding done on the xml-->
+        <TextBlock Text="{Binding ElementName=tChan, Path=Text}" 
+                   HorizontalAlignment="Left" 
+                   Margin="23,10,0,0" 
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Top">
+                   <!--<Run Text="This is a textblock!"/>-->
+        </TextBlock>
+        <!--It is a good practice to have a x:Name attribute for your elements-->
+        <TextBox x:Name="tChan"
+                 HorizontalAlignment="Left" 
+                 Height="Auto" 
+                 Margin="23,43,0,0" TextWrapping="Wrap" Text="Text Box" VerticalAlignment="Top" Width="300" ToolTip="This is a text box"
+                 FontFamily="Segoe UI">
+            <!--Having this attribute makes the height of the text box adjust depending on the length of the text.-->
+            <TextBox.Effect>
+                <DropShadowEffect/>
+                <!--this makes the drop shadow thing on our text box-->
+            </TextBox.Effect>
+        </TextBox>
+
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApplication3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stack Panel and Radio Buttons" Height="350" Width="525">
+    <Grid>
+        <!--Placing a RadioButton on a StackPanel is a must so that you can group them. You can have many StackPanel
+        if you want to and that's how you do multiple radio button groups
+        -->
+        <StackPanel Grid.Column="0" Margin="0,0,0,239">
+            <Label>Your favorite musical anime</Label>
+            <RadioButton Content="iDOLM@STER" Click="imas"/>
+            <RadioButton Content="K-ON!" Click="kon"/>
+            <RadioButton Content="Angel Beats" Click="absx"/>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Margin="0,85,0,158">
+            <Label>Favorite Imouto Anime</Label>
+            <RadioButton Content="OreImo" Click="oreimo"/>
+            <RadioButton Content="NakaImo" Click="nakaimo"/>
+            <RadioButton Content="OniAi" Click="oniai"/>
+        </StackPanel>
+    </Grid>
+</Window>

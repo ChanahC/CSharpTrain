@@ -1,0 +1,13 @@
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.exe.config
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.exe
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.pdb
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.csprojResolveAssemblyReference.cache
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\MainWindow.baml
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\MainWindow.g.cs
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\App.g.cs
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3_MarkupCompile.cache
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.g.resources
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.Properties.Resources.resources
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.csproj.GenerateResource.Cache
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.exe
+c:\users\chanahc\documents\visual studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.pdb
