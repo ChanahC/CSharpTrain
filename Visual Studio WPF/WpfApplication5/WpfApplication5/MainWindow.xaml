@@ -1,0 +1,11 @@
+﻿<Window x:Class="WpfApplication5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <CheckBox Content="Chan" Checked="funcxxx" Unchecked="funcyyy" Name="chan"/>
+            <CheckBox Content="Chanx" Checked="funcxxx" Unchecked="funcyyy" Name="chanx"/>
+        </StackPanel>
+    </Grid>
+</Window>

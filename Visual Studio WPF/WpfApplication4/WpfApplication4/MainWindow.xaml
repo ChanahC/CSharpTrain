@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApplication4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock Name="tbl" Text="X"/>
+        <!--Demonstrating the Checked function of a radio button!-->
+        <StackPanel Margin="1,91,-1,-91">
+            <RadioButton Content="iDOLM@STER" Checked="funcxxx" Name="imas"/>
+            <RadioButton Content="K-ON!" Checked="funcxxx" Name="kon"/>
+            <RadioButton Content="OreShura" Checked="funcxxx" Name="oreshura"/>
+            <RadioButton Content="Haganai" Checked="funcxxx" Name="haganai"/>
+        </StackPanel>
+    </Grid>
+</Window>
