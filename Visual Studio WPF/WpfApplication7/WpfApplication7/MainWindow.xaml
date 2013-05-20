@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApplication7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <Button Content="Click" Click="Button_Click"
+                MaxHeight="25" MaxWidth="100" />
+            <Label Background="LightBlue" Content="Double Click" 
+               HorizontalContentAlignment="Center" 
+               MaxHeight="25" MaxWidth="100" 
+               MouseDoubleClick="Label_MouseDoubleClick" />
+            <TextBlock Background="Turquoise" Text="Mouse Up" MouseUp="TextBlock_MouseUp" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Canvas>
+                <Rectangle Canvas.Top="15" Canvas.Left="20" Height="25" Width="100" Fill="Aqua" MouseDown="Rectangle_MouseDown" />
+                <TextBlock Canvas.Top="20" Canvas.Left="40" Text="Mouse Down" IsHitTestVisible="False"/>
+            </Canvas>
+        </StackPanel>
+    </Grid>
+</Window>

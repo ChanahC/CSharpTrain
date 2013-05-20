@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApplication6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" Height="600" Width="1200">
+    <Grid>
+        <StackPanel>
+            <Border MouseEnter="OnMouseEnterHandler"
+        		MouseLeave="OnMouseLeaveHandler"
+        		x:Name="border1" Margin="96,10"
+        		BorderThickness="1"
+        		BorderBrush="Black"
+        		VerticalAlignment="Center"
+        		Width="800" Height="300">
+                <Label Margin="10" FontSize="14"
+        			HorizontalAlignment="Center" Content="Try to put your move over!"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
