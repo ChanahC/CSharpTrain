@@ -21,6 +21,7 @@ namespace QuickSharp
             myCole.Remove("Yusa Emi"); //removing an element on a collection
             Console.WriteLine("Deleted an element");
             bool a = myCole.Contains("Takane"); //tells whether the collection contains a certain element
+            Console.WriteLine(a);
             //enumerate the elements
             foreach(string b in myCole){
                 Console.WriteLine("myCole contains " + b);
